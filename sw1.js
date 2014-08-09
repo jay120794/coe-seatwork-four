@@ -1,9 +1,10 @@
 var drawTriangle = function(level){
+	var sample = "";
 	for (var i = 0; i<level; i++){
-		for(var x = 0; x<=i; x++){
-		console.log("#");			
+		for(var x = i; x<=i; x++){
+		sample += "#";		
 		}
-	console.log("\n");
+	console.log(sample);
 	}
 }
 
